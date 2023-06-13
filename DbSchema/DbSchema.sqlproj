@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build">
+  <Sdk Name="Microsoft.Build.Sql" Version="0.1.10-preview" />
+  <PropertyGroup>
+    <Name>DbSchema</Name>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql140DatabaseSchemaProvider</DSP>
+    <ModelCollation>1033, CI</ModelCollation>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <ProjectGuid>{1ed41005-65c8-49a9-a3a3-cce34b58f416}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <Build Include="dbo.Product.sql" />
+  </ItemGroup>
+</Project>

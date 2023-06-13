@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DbUnitTest": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
